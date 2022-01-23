@@ -1,0 +1,6 @@
+{
+  "botToken": "",
+  "supportServer": "",
+  "invitBot": "https://discord.com/oauth2/authorize?client_id=[ID de votre BOT]&permissions=8&scope=applications.commands%20bot",
+  "owners": [""]
+}
