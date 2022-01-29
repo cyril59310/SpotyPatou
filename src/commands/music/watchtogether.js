@@ -28,16 +28,16 @@ module.exports = {
       return bot.say.warnMessage(interaction, "Il me manque \`Create Invite\` comme permission pour inviter.");
 
     const invite = await channel.createInvite({
-      targetApplication: "755600276941176913",
+      targetApplication: "880218394199220334",
       targetType: 2
     });
 
-    const embed = bot.say.rootEmbed(interaction)
-      .setTitle(`Successfully setup **YouTube Watch Together** activity to **${channel.name}** channel.`);
+    const embed = bot.say.baseEmbed(interaction)
+      .setTitle(`L\'activité **YouTube Watch Together** a bien été configurée sur le channel **${channel.name}** .`);
 
     const btnRow = new MessageActionRow().addComponents([
       new MessageButton()
-      .setLabel("Join")
+      .setLabel("rejoindre")
       .setStyle("LINK")
       .setURL(`${invite.url}`)
       ]);
