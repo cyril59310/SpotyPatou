@@ -2,4 +2,4 @@ package-lock.json
 .github
 node_modules
 .gitignore
-config.js
+config.json
