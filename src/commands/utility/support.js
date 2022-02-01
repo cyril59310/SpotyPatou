@@ -7,7 +7,7 @@ module.exports = {
   category: "utility",
   execute(bot, interaction) {
     const embed = bot.say.baseEmbed(interaction)
-      .setDescription(`[Cliquez pour rejoindre le serveur de support.](${supportServer})`);
+      .setDescription(`:arrow_down: **Cliquez ici pour rejoindre notre support.**`);
 
     const row = new MessageActionRow().addComponents([
       new MessageButton()

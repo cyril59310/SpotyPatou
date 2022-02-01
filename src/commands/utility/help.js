@@ -19,7 +19,7 @@ module.exports = {
     if (arg) {
       const cmd = bot.commands.get(arg);
       if (!cmd)
-        return bot.say.warnMessage(interaction, `No command was found named \`${arg}\`.`);
+        return bot.say.warnMessage(interaction, `Aucune commande nommée \`${arg}\` n\'a été trouvée .`);
 
       const cmdUsage = cmd.usage ? `\/${cmd.name} ${cmd.usage}` : `\/${cmd.name}`;
 
