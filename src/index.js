@@ -1,5 +1,5 @@
 require("./modules/checkValid");
-
+const request = require('request')
 const { Collection, Client, Intents } = require("discord.js");
 const { Player } = require("discord-player");
 
@@ -16,6 +16,11 @@ const bot = new Client({
   ],
   allowedMentions: { parse: ["roles", "users"], repliedUser: false }
 });
+
+setInterval(() => {
+  request("http://45.155.170.110:3001/api/push/sdsYF6gI7R?msg=OK&ping=")
+  console.log('ping status page')
+}, 20000);
 
 bot.commands = new Collection();
 

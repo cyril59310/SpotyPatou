@@ -1,13 +1,14 @@
 {
-  "name": "SpotyPatou",
+  "name": "brokendisc",
   "version": "2.0.1",
   "description": "",
   "license": "Apache-2.0",
+  "homepage": "https://github.com/BlackKnight683/BrokenDisc#README",
   "main": "src/index.js",
   "private": true,
   "author": {
-    "name": "Cyril59310 & Patou",
-    "url": ""
+    "name": "blackknight683",
+    "url": "https://solonodes.xyz"
   },
   "scripts": {
     "test": "echo \"error: no test specified\" && exit 1",
@@ -16,6 +17,14 @@
   "engines": {
     "npm": ">=7.0.0",
     "node": ">=16.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/BlackKnight683/BrokenDisc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BlackKnight683/BrokenDisc/issues",
+    "email": "oofy@solonodes.xyz"
   },
   "keywords": [
     "discord-bot",
@@ -36,6 +45,7 @@
     "discord.js": "^13.3.1",
     "ffmpeg-static": "^4.4.0",
     "glob": "^7.1.7",
+    "request": "^2.88.2",
     "ytdl-core": "^4.9.2"
   }
 }
