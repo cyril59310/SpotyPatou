@@ -6,6 +6,8 @@ module.exports = {
   async execute(bot, interaction) {
     await bot.say.successMessage(interaction, "Arrêter le bot.....", true);
 
+    console.log('test')
+
     process.exit(1);
   }
 };
